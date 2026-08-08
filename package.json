@@ -1,7 +1,7 @@
 {
   "name": "aura-op-one",
   "version": "0.1.0",
-  "description": "Aura OP One — the minimal personal and agentic client for the Aura ecosystem.",
+  "description": "Aura OP One — the minimal personal and agentic client for the Aura ecosystem. A quiet conversation with memory, a chosen agent, and a verification state you can trust.",
   "bin": {
     "opone": "dist/cli.js"
   },
@@ -9,6 +9,7 @@
   "types": "./dist/index.d.ts",
   "files": [
     "dist",
+    "src",
     "README.md",
     "AURA_OP_ONE_ARCHITECTURE.md",
     "LICENSE"
@@ -19,16 +20,31 @@
     "dev": "ts-node src/cli.ts",
     "test": "vitest run",
     "test:watch": "vitest",
-    "clean": "rm -rf dist"
+    "clean": "rm -rf dist",
+    "prepublishOnly": "npm run clean && npm run build && npm test"
   },
   "keywords": [
     "aura",
+    "aura-code",
     "agent",
+    "ai",
     "cli",
+    "coding-agent",
     "verification",
-    "memory"
+    "memory",
+    "llm",
+    "tui"
   ],
+  "author": "Dusan Milosavljevic",
   "license": "MIT",
+  "homepage": "https://github.com/milodule3-debug/aura-op-one#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/milodule3-debug/aura-op-one.git"
+  },
+  "bugs": {
+    "url": "https://github.com/milodule3-debug/aura-op-one/issues"
+  },
   "engines": {
     "node": ">=18"
   },
