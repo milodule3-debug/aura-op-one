@@ -12,6 +12,7 @@
     "src",
     "README.md",
     "AURA_OP_ONE_ARCHITECTURE.md",
+    "RELEASING.md",
     "LICENSE"
   ],
   "scripts": {
