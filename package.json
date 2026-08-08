@@ -38,13 +38,13 @@
   ],
   "author": "Dusan Milosavljevic",
   "license": "MIT",
-  "homepage": "https://github.com/milodule3-debug/aura-op-one#readme",
+  "homepage": "https://github.com/DusanCar-sudo/aura-op-one#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/milodule3-debug/aura-op-one.git"
+    "url": "git+https://github.com/DusanCar-sudo/aura-op-one.git"
   },
   "bugs": {
-    "url": "https://github.com/milodule3-debug/aura-op-one/issues"
+    "url": "https://github.com/DusanCar-sudo/aura-op-one/issues"
   },
   "engines": {
     "node": ">=18"
